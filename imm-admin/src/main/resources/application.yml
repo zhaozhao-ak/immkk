@@ -1,0 +1,15 @@
+# ====================basis.connection====================
+
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.8.163:3310/rjyx_hdis?useUnicode=true&characterEncoding=utf8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Hongkong&useSSL=true&noAccessToProcedureBodies=true&&autoReconnect=true&failOverReadOnly=false
+    username: admin
+    password: admin
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+server:
+  port: 8080
+
+mybatis:
+  mapper-locations: classpath:com.imm.kk/*.xml
+  type-aliases-package: com.util.model
