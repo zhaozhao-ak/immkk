@@ -21,6 +21,6 @@ public class AgeSettingAction {
     @GetMapping("getAgeDate")
     @ResponseBody
     public HdisResult getMenuPermissionData() {
-        return HdisResult.ok(hdisAgeService.findAllData());
+        return HdisResult.ok("dasadadasdad");
     }
 }
