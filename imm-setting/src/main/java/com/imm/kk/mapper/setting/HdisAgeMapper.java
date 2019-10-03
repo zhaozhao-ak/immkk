@@ -17,4 +17,6 @@ public interface HdisAgeMapper extends BaseMapper<HdisAge> {
 
     List<HdisAge> selectAllData();
 
+    int selectCnt();
+
 }

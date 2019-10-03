@@ -16,4 +16,6 @@ public interface ImmUserMapper extends BaseMapper<ImmUser> {
 
     List<ImmUser> selectAllData();
 
+    int selectCnt();
+
 }
