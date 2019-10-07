@@ -1,5 +1,6 @@
 package com.imm.kk.mapper.setting;
 
+import com.baomidou.mybatisplus.mapper.BaseMapper;
 import com.imm.kk.entity.setting.ImmUser;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Component;
@@ -11,7 +12,7 @@ import java.util.List;
  */
 @Mapper
 @Component
-public interface ImmUserMapper{
+public interface ImmUserMapper extends BaseMapper<ImmUser> {
 
    List<ImmUser> selectUserList();
 

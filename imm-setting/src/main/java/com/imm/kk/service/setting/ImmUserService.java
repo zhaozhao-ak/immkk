@@ -31,4 +31,10 @@ public class ImmUserService {
     public List<ImmUser> selectUsers() {
         return immUserMapper.selectUserList();
     }
+
+    public void addUser() {
+        ImmUser user = new ImmUser();
+        user.setUserName("旺旺");
+       immUserMapper.insert(user);
+    }
 }

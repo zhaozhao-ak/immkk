@@ -32,4 +32,12 @@ public class UserAction {
     public HdisResult getUsers() {
         return HdisResult.list(immUserService.selectUsers());
     }
+    @GetMapping("addUser")
+    @ResponseBody
+    public HdisResult addUser() {
+        immUserService.addUser();
+        return HdisResult.ok();
+    }
+
+
 }
