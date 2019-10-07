@@ -1,14 +1,14 @@
 package com.imm.kk;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 /**
  * @author imm-sz
  */
 @SpringBootApplication
-@MapperScan("com.imm.kk.mapper")
+@ComponentScan(value = {"com.imm.kk"})
 public class ImmkkAdminApplication {
 
     public static void main(String[] args) {

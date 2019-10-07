@@ -11,5 +11,6 @@ server:
   port: 8080
 
 mybatis:
+  config-location: classpath:mybatis/mybatis-sqlconfig.xml
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.imm.kk.entity

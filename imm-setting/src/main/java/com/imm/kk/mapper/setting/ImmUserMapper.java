@@ -13,6 +13,6 @@ import java.util.List;
 @Component
 public interface ImmUserMapper{
 
-    public List<ImmUser> selectUserList();
+   List<ImmUser> selectUserList();
 
 }
