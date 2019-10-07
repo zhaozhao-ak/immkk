@@ -11,7 +11,7 @@ import org.apache.ibatis.type.Alias;
 
 
 /**
- * @author rjyx_huxinsheng
+ * @author sz
  * @date 2019-05-13 19:39:21
  */
 @Data
@@ -20,6 +20,7 @@ import org.apache.ibatis.type.Alias;
 @TableName(value = "imm_user")
 @Alias(value = "ImmUser")
 public class ImmUser {
+
     @TableId(value = "userId", type = IdType.UUID)
     private String userId;
     @TableField(value = "userName")

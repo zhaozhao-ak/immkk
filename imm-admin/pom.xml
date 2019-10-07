@@ -27,4 +27,37 @@
 
     </dependencies>
 
+<!--    <build>-->
+<!--        <resources>-->
+<!--            <resource>-->
+<!--                <directory>src/main/java</directory>-->
+<!--                <includes>-->
+<!--                    <include>**/*.xml</include>-->
+<!--                    <include>**/*.store</include>-->
+<!--                </includes>-->
+<!--            </resource>-->
+<!--            <resource>-->
+<!--                <filtering>true</filtering>-->
+<!--                <directory>src/main/resources</directory>-->
+<!--                <excludes>-->
+<!--                    <exclude>**/*.woff</exclude>-->
+<!--                    <exclude>**/*.ttf</exclude>-->
+<!--                    <exclude>**/*.eot</exclude>-->
+<!--                    <exclude>**/*.svg</exclude>-->
+<!--                </excludes>-->
+<!--            </resource>-->
+<!--            <resource>-->
+<!--                <directory>src/main/resources</directory>-->
+<!--                <filtering>false</filtering>-->
+<!--                <includes>-->
+<!--                    <include>**/*.woff</include>-->
+<!--                    <include>**/*.ttf</include>-->
+<!--                    <include>**/*.eot</include>-->
+<!--                    <include>**/*.svg</include>-->
+<!--                    <include>**/*.xml</include>-->
+<!--                </includes>-->
+<!--            </resource>-->
+<!--        </resources>-->
+<!--    </build>-->
+
 </project>

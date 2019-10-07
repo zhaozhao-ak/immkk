@@ -11,7 +11,7 @@
         <result property="userName" column="userName"/>
     </resultMap>
 
-    <select id="selectAllData" resultType="com.imm.kk.entity.setting.ImmUser">
+    <select id="selectUserList" resultType="com.imm.kk.entity.setting.ImmUser">
         SELECT
          userId
         ,userName
