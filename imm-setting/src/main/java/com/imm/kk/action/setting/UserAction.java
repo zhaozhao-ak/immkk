@@ -30,6 +30,6 @@ public class UserAction {
     @GetMapping("getUserList")
     @ResponseBody
     public HdisResult getUsers() {
-        return HdisResult.ok(immUserService.selectUsers());
+        return HdisResult.list(immUserService.selectUsers());
     }
 }

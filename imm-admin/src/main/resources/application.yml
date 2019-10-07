@@ -2,8 +2,8 @@
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/imm-kk?useUnicode=true&characterEncoding=utf8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Hongkong&useSSL=true&noAccessToProcedureBodies=true&&autoReconnect=true&failOverReadOnly=false
-    username: imm-kk
+    url: jdbc:mysql://localhost:3306/imm_kk?useUnicode=true&characterEncoding=utf8&serverTimezone=Hongkong&autoReconnect=true&failOverReadOnly=false
+    username: admin
     password: admin
     driver-class-name: com.mysql.cj.jdbc.Driver
 
