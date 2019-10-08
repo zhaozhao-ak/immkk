@@ -1,7 +1,7 @@
 # ====================basis.connection====================
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/imm_kk?useUnicode=true&characterEncoding=utf8&serverTimezone=Hongkong&autoReconnect=true&failOverReadOnly=false
+    url: jdbc:mysql://192.168.8.163:3306/imm_kk?useUnicode=true&characterEncoding=utf8&serverTimezone=Hongkong&autoReconnect=true&failOverReadOnly=false
     username: admin
     password: admin
     driver-class-name: com.mysql.cj.jdbc.Driver

@@ -34,7 +34,7 @@ public class ImmUserService {
 
     public void addUser() {
         ImmUser user = new ImmUser();
-        user.setUserName("旺旺");
+        user.setUserName("小五");
        immUserMapper.insert(user);
     }
 }
