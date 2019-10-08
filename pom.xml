@@ -20,6 +20,7 @@
 		<module>imm-care</module>
 		<module>imm-admin</module>
 		<module>imm-setting</module>
-	</modules>
+        <module>imm-common</module>
+    </modules>
 
 </project>
